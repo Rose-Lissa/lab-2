@@ -5,5 +5,6 @@
 class worker {
 public:
 	virtual void make(std::vector<std::string>& text) = 0;
+	virtual ~worker() = 0;
 };
 
